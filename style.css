@@ -1,0 +1,354 @@
+/* Box sizing rules */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Remove default margin */
+/* body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+} */
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+/* ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+} */
+
+/* Set core root defaults */
+/* html:focus-within {
+  scroll-behavior: smooth;
+} */
+
+/* Set core body defaults */
+/* body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+} */
+
+/* A elements that don't have a class get default styles */
+/* a:not([class]) {
+  text-decoration-skip-ink: auto;
+} */
+
+/* Make images easier to work with */
+/* img,
+picture {
+  max-width: 100%;
+  display: block;
+} */
+
+/* Inherit fonts for inputs and buttons */
+/* input,
+button,
+textarea,
+select {
+  font: inherit;
+} */
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+} */
+
+/* Priyanshu CSS */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  /*  background-color: #1a1110;*/
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  height: 12vh;
+  width: 100%;
+  /* display:flex; */
+  /* position: relative; */
+  /*  background-color:orange;*/
+  background-color: #20a6ff;
+  background-color: #ffa600;
+  position: relative;
+}
+#navbar {
+  /* background-color: yellow; */
+  height: 12vh;
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellow; */
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.left a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 1em;
+  /* font-weight: b; */
+}
+.left button {
+  border: none;
+  padding: 0.4em 0.6em;
+  border-radius: 5px;
+  background-color: rgb(156, 230, 233);
+  transition: all ease-in 170ms;
+  position: relative;
+  left: 3em;
+}
+.left button a {
+  color: black;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+}
+
+.left button:hover {
+  transform: scale(0.9);
+}
+
+/* SECTION-1 */
+.section-1 {
+  /* background-color: green; */
+  height: 80vh;
+  /* color: black; */
+}
+.quote {
+  text-align: center;
+  margin-top: 1.4em;
+  font-size: 12px;
+  line-height: 1.9;
+  color: white;
+}
+
+.content-1 {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  font-family: "Cabin Condensed", sans-serif;
+}
+.right-sec h1 {
+  font-size: 3.2rem;
+  width: 30vw;
+  line-height: 1.2;
+  color: #ffa600;
+  /* background-color: green; */
+}
+.right-sec p {
+  font-size: 2rem;
+  /* background-color: green; */
+  color: rgb(255, 255, 255);
+}
+#forYou {
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+.mini_sec_1 {
+  /* background-color: rgb(0, 140, 255); */
+  margin: auto;
+}
+
+/* SECTION-2 */
+.section-2 {
+  height: 100vh;
+  width: 100%;
+  font-size: 1.3rem;
+  /* color: black; */
+}
+.content-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  position: relative;
+  left: -2em;
+  margin-top: 5rem;
+  font-family: "Cabin Condensed", sans-serif;
+  /* color: black; */
+}
+.right_mini_sec_2 {
+  /* background-color:lightgreen; */
+  position: relative;
+  margin-right: 300px;
+  /* color:white; */
+  /* left: -5em; */
+}
+.left_mini_sec_2 {
+  /* background-color:lightslategrey; */
+  width: 45vw;
+  /* height: 50vw; */
+  /*  font-size: 5px;*/
+  /* color: yellow; */
+  font-size: 50px;
+  width: 20vw;
+  line-height: 1.2;
+  font-family: cursive, sans-serif;
+  color: #ffa600;
+}
+.left-sec {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.right-sec {
+  margin-left: 10px;
+}
+
+#ourtools {
+  font-family: cursive, sans-serif;
+  margin-left: 40%;
+  text-decoration: underline;
+  color: #ffa600;
+}
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+  border-top: 2px solid;
+  border-top-color: grey;
+  position: relative;
+  top: 580px;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 120%;
+  background: #262626;
+  z-index: -1;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  grid-row-gap: 50px;
+  /* position: relative; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+/* QUOTE GENEREATOR */
+
+#quote-text {
+  /* border: 2px solid red; */
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Baloo Bhaijaan 2", cursive;
+
+  /* font-family: "Corinthia", cursive; */
+}
+#quote-text::before {
+  content: ' "  ';
+}
+#quote-text::after {
+  content: '"';
+}
+.grid-item img {
+  /* padding: 9px; */
+  height: 150px;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 123, 0);
+  justify-self: center;
+  transition: all 190ms ease-in-out;
+}
+.grid-container p {
+  color: white;
+}
+.grid-item img:hover {
+  height: 200px;
+}
